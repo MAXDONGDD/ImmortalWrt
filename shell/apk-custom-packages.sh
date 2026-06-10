@@ -182,8 +182,6 @@
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-xlnetacc-zh-cn"
 
 # ========== 自定义启用插件 (x86-64 25.12) ==========
-# 首页向导(标准 imm 包;若构建报"找不到"会删掉重跑)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 文件管理器
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES bash quickfile luci-app-quickfile luci-i18n-quickfile-zh-cn"
 # 极光主题
