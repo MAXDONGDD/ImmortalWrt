@@ -201,7 +201,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-ksmbd-zh-cn"
 # Bandix: 按设备实时流量监控
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES bandix luci-app-bandix luci-i18n-bandix-zh-cn"
 # VPN
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-openvpn-server luci-i18n-openvpn-server-zh-cn"
+# (luci-app-openvpn-server 在 25.12/apk 下与依赖 openvpn-openssl 抢 /etc/config/openvpn, 必装机失败, 故用通用版 openvpn UI 代替)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-openvpn-zh-cn"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-proto-wireguard"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-tailscale-community luci-i18n-tailscale-community-zh-cn"
